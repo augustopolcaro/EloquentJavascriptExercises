@@ -1,0 +1,8 @@
+function wrapValue(n){
+    let local = n;
+    return () => local;
+}
+
+let wrap1 = wrapValue(1);
+
+console.log(wrap1());
