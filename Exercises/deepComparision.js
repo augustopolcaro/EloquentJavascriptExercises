@@ -18,7 +18,7 @@ const deepEqual = (object1,object2) =>{
         }
     }
     return true;    
-}
+} 
 
 console.log(deepEqual(obj, obj));
 // // → true
